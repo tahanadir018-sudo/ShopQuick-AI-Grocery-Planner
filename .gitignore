@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+taha/
+env/
+*.egg-info/
+.eggs/
+
+# Environment & secrets (never commit API keys)
+.env
+.env.local
+*.env
+
+# SQLite DB (recreated by seed on startup)
+groceries.db
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist-ssr
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.sw?
